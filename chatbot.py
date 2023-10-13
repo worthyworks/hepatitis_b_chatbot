@@ -187,7 +187,7 @@ st.markdown("<p style='text-align: center; font-size: 18px;'>Ask me anything abo
 
 
 # User input for the question
-user_input = st.text_input("Ask a question (make sure to include hepatitis B in your question):")
+user_input = st.text_input("Ask a question (short single queries only and include hepatitis B in your question!):")
 
 best_answer = None  # Initialize best_answer to None
 
